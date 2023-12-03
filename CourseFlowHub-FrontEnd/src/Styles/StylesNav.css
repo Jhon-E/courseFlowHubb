@@ -1,0 +1,39 @@
+.opc {
+  border-radius: 50px;
+  background: #e6eaff;
+  box-shadow: 20px 20px 22px #bdc0d1, -20px -20px 22px #ffffff;
+}
+.container-opc {
+  position: relative;
+  display: inline-block;
+}
+
+.opciones {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -30%;
+  background-color: var(--bg-color-second);
+  color: var(--bg-color-main);
+  border-radius: 8px 0px 8px 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-opc:hover .opciones {
+  display: block;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f6faff, #cfd3e6);
+  box-shadow: 20px 20px 18px #c4c7d9, -20px -20px 18px #ffffff;
+}
+
+.logo > img {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
