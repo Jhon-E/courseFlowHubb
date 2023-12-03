@@ -7,22 +7,12 @@ const Navigation = () => {
         <div className="logo">
           <img src="../src/assets/logo.png" alt="Logo plataforma" />
         </div>
-        <div className="opc flex gap-16 w-96 p-4 justify-center">
+        <div className="opc grid grid-flow-col grid-cols-2 w-1/2 justify-center text-center h-10 items-center">
           <div className="container-opc">
-            <p className=" cursor-default">I'm student</p>
-            <div className="opciones">
-              <p>
-                <a href="#">Sign in</a>
-              </p>
-            </div>
+            <p>I'm student</p>
           </div>
           <div className="container-opc">
             <p className=" cursor-default">I'm professor</p>
-            <div className="opciones">
-              <p>
-                <a href="#">Sign in</a>
-              </p>
-            </div>
           </div>
         </div>
       </nav>

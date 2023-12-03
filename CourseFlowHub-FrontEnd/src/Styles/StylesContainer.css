@@ -3,3 +3,9 @@
   background: #e6eaff;
   box-shadow: 20px 20px 60px #c4c7d9, -20px -20px 60px #ffffff;
 }
+
+.btn {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f6faff, #cfd3e6);
+  box-shadow: 12px 12px 32px #787a85, -12px -12px 32px #ffffff;
+}

@@ -4,8 +4,26 @@
   box-shadow: 20px 20px 22px #bdc0d1, -20px -20px 22px #ffffff;
 }
 .container-opc {
-  position: relative;
-  display: inline-block;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  align-content: center;
+  transition: background-color 0.3s ease;
+  transition: border-radius 0.3s ease;
+}
+
+.container-opc:nth-child(1):hover {
+  background-color: var(--bg-color-second);
+  color: var(--bg-color-main);
+  border-radius: 25px 0px 0px 25px;
+}
+.container-opc:nth-child(2):hover {
+  background-color: var(--bg-color-second);
+  color: var(--bg-color-main);
+  border-radius: 0px 25px 25px 0px;
 }
 
 .opciones {

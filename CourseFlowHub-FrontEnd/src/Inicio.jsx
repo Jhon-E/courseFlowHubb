@@ -7,10 +7,10 @@ function Inicio() {
       <div className="container h-screen w-full flex justify-center items-center">
         <div className="container-info-neo w-3/4 h-3/4 p-10">
           <Navigation />
-          <section className="container flex h-4/5 items-center w-full">
+          <section className=" cont-ini container flex h-4/5 items-center w-full justify-around bg">
             <section className="container w-1/3 flex flex-col gap-8">
+              <h1 className=" text-xl font-bold">CourseFlowHub</h1>
               <p>Flow with Online Education.</p>
-              <h1>CourseFlowHub</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit, quo sed et delectus laborum recusandae adipisci
@@ -18,7 +18,7 @@ function Inicio() {
                 nesciunt, aliquam corrupti? Ducimus, ad quia!
               </p>
               <div id="container-inicio-botones">
-                <a href="#">Sign up</a>
+                <a href="#" className=" btn p-2 w-28 absolute text-center">Sign up</a>
               </div>
             </section>
             <section className="container-img">
